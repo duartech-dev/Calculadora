@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(32, 32, 31);
+    height: 100vh;
+}
+#Calculadora{
+    max-width: 360px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+#Calculadora input{
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    margin-bottom:10px;
+    text-align: right;
+    font-size: 20px;
+    border-radius:10px ;
+    box-sizing: border-box;
+    align-items: center;
+    color: #fff;
+    background-color: #242424;
+}
+.operacion{
+    color: rgb(0, 17, 255);
+}
+#AC{
+    color: blueviolet;
+}
+#igual {
+    width: calc(50% - 10px); /*para que el boton de igual sea mas grande*/
+}
+
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+button{
+    width: calc(25% - 10px);
+    font-size: 20px;
+    height: 50px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    color: #fff;
+    background-color: rgb(46, 45, 44);
+}
